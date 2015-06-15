@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .container-full {
       padding: 180px 0 100px 0;
       background-image: url("http://blog-imgs-51.fc2.com/b/l/o/bloomplanet/hanken2.jpg");
@@ -11,6 +12,39 @@
       width /***/:auto;
     }
 
-.container-wrapper {
-opacity: 1.0;
+.header-left{
+  color:white;
+  font-size:20px;
+  width: 124px;
+  margin-top: 14px;
+}
+
+header{
+  height: 55px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+  float: right;
+  background-color: rgba(255,255,255,0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover{
+  background-color: rgba(255,255,255,0.5);
+}
+
+.header-right a{
+  line-height: 55px;
+  padding: 0 20px;
+  color: white;
+  display: block;
 }
