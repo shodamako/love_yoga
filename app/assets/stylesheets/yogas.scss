@@ -1,3 +1,16 @@
 // Place all the styles related to the yogas controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container-full {
+      padding: 180px 0 100px 0;
+      background-image: url("http://blog-imgs-51.fc2.com/b/l/o/bloomplanet/hanken2.jpg");
+      background-size: cover;
+      max-width: 100%;
+      height: auto;
+      width /***/:auto;
+    }
+
+.container-wrapper {
+opacity: 1.0;
+}
