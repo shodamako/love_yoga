@@ -1,0 +1,16 @@
+<h1>新規メンバー登録フォーム</h1>
+
+<%= form_for @yoga do |f| %>
+
+<p>
+会員名：<br>
+<%= f.text_field :name %>
+</p>
+
+<p>
+年齢：<br>
+<%= f.number_field :age %>
+</p>
+
+<%= f.submit '登録する' %>
+<% end %>

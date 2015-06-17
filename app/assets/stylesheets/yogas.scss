@@ -18,6 +18,13 @@
   margin-top: 14px;
 }
 
+.header-right{
+  color:white;
+  font-size:12px;
+  width: 220px;
+  margin-top: 11px;
+}
+
 header{
   height: 55px;
   width: 100%;
@@ -33,20 +40,8 @@ header{
 
 .header-right{
   float: right;
-  background-color: rgba(255,255,255,0.3);
-  transition: all 0.5s;
 }
 
-.header-right:hover{
-  background-color: rgba(255,255,255,0.5);
-}
-
-.header-right a{
-  line-height: 55px;
-  padding: 0 20px;
-  color: white;
-  display: block;
-}
 
 #ここからは２ページ目
 
@@ -55,4 +50,9 @@ header{
 }
 .split {
     visibility: hidden;
+}
+
+.image-first {
+  height: 400px;
+  width: 290px;
 }

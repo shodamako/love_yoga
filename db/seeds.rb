@@ -19,3 +19,8 @@ Yoga.create(
   name: "由紀",
   age: 34,
 )
+
+Yoga.create(
+  name: "翔",
+  age: 27,
+  )
